@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MoonTsuki/moon/static/css/main.b4110c3f.chunk.css",
+    "main.js": "/MoonTsuki/moon/static/js/main.8dbf086e.chunk.js",
+    "main.js.map": "/MoonTsuki/moon/static/js/main.8dbf086e.chunk.js.map",
+    "runtime-main.js": "/MoonTsuki/moon/static/js/runtime-main.bf668924.js",
+    "runtime-main.js.map": "/MoonTsuki/moon/static/js/runtime-main.bf668924.js.map",
+    "static/css/2.0624914a.chunk.css": "/MoonTsuki/moon/static/css/2.0624914a.chunk.css",
+    "static/js/2.25b0e5a1.chunk.js": "/MoonTsuki/moon/static/js/2.25b0e5a1.chunk.js",
+    "static/js/2.25b0e5a1.chunk.js.map": "/MoonTsuki/moon/static/js/2.25b0e5a1.chunk.js.map",
+    "index.html": "/MoonTsuki/moon/index.html",
+    "precache-manifest.fc35215ff6d9bc0d9257bde72ff7a995.js": "/MoonTsuki/moon/precache-manifest.fc35215ff6d9bc0d9257bde72ff7a995.js",
+    "service-worker.js": "/MoonTsuki/moon/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/MoonTsuki/moon/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.b4110c3f.chunk.css.map": "/MoonTsuki/moon/static/css/main.b4110c3f.chunk.css.map",
+    "static/media/logo.svg": "/MoonTsuki/moon/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf668924.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.25b0e5a1.chunk.js",
+    "static/css/main.b4110c3f.chunk.css",
+    "static/js/main.8dbf086e.chunk.js"
+  ]
+}
