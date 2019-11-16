@@ -2,21 +2,45 @@
   text-align: center;
 }
 
+.App-background {
+  background-size: contain;
+  border: 2px solid black;
+}
+
 .App-logo {
   height: 40vmin;
 }
 
 .App-header {
   background-color: #f9f9f9;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+@keyframes myanimation
+{
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 80%;  
+        transform: rotate(90deg)
+    }
+}
+
+.animated {
+  position: absolute;
+  top: 70px;
+  animation: myanimation 5s forwards;
+}
+
+.a#rotator {
+  animation: myanimation 5s;
 }

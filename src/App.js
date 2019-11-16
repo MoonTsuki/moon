@@ -1,8 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
 import Button from 'react-bootstrap/Button';
 import Navbar from './components/navbar/navbar';
+import React from 'react';
+import moonImage from './resources/moon.png'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to the Moon!</h1>
         <Button variant='light'>My First Button</Button>
+        <img src={moonImage} className='animated'></img>
       </header>
     </div>
   );
