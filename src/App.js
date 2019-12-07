@@ -15,14 +15,18 @@ function App() {
       <Navbar></Navbar>
       <header className="App-header">
         <h1>Welcome to the Moon!</h1>
-        <Button variant='light'>My First Button</Button>
         <img src={moonImage} className='animated'></img>
       </header>
       <body>
         <Container>
           <Row>
             <Col>
-              <FlipCard image={profile1} name={'Aloysius Lim'}></FlipCard>
+              <FlipCard 
+                image={profile1} 
+                name={'Aloysius Lim'}
+                description={'FinTech / Security / FrontEnd Design'}
+                title={'Skills'}
+              />
             </Col>
             <Col>
               <FlipCard></FlipCard>

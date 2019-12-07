@@ -1,7 +1,7 @@
 .flip-image {
     background-color: aquamarine;
-    min-height: 35vh;
-    max-height: 40vh;
+    min-height: 30vh;
+    max-height: 35vh;
     margin-bottom: 10px;
     resize: both;
 }
@@ -33,6 +33,11 @@
     transform: rotateY(180deg);
   }
   
-  .flip-card:hover .flip-card-inner{
+  .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+  }
+
+  .flip-card-body {
+    height: 345px;
+    width: 100%;
   }
