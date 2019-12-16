@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import logo from '../../resources/moon.png';
 import './navbar.css'
+
+import React, { Component } from 'react';
+
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../../resources/moon.png';
 
 export default class NavigationBar extends Component {
     render() {
         return (
             <Navbar className="transparent justify-content-between">
                 <Nav justify>
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="#features">About us</Nav.Link>
                     <Nav.Link href="#pricing">Lorem Ipsum</Nav.Link>
                 </Nav>

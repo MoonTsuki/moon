@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import { Link } from 'react-router-dom';
 
 export default class FlipCard extends Component {
   render() {
@@ -29,7 +30,11 @@ export default class FlipCard extends Component {
                   <Card.Text>
                     {this.props.description}
                   </Card.Text>
-                  <Button variant="danger"> View my Portfolio </Button>
+                  <Link to="/aloy">
+                    <Button variant="danger">
+                      View my Portfolio
+                    </Button>
+                  </Link>  
                 </Card.Body>
               </Card>
             </div>
