@@ -40,4 +40,5 @@
   position: absolute;
   top: 70px;
   animation: myanimation 5s forwards;
+  z-index: 999;
 }
