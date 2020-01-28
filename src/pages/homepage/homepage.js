@@ -18,12 +18,14 @@ const Root = styled.div`
     display: flex;
     flex-direction: column;
     background-color: black;
+    height: 100vh;
   }
 `;
 
 const Body = styled.body`
   display: flex;
   height: 100%;
+  padding: 25px;
 `;
 
 const StyledContainer = styled(Container)`
@@ -36,6 +38,7 @@ const Header = styled.header`
   justify-content: center;
   align-items: center;
   height: 15%;
+  background-color: #f9f9f9;
 `;
 
 const StyledRow = styled.div`
@@ -56,6 +59,10 @@ const Footer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const StyledFlipCard = styled(FlipCard)``;
