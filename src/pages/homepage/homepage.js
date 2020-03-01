@@ -87,11 +87,10 @@ function Homepage() {
             />
             <StyledFlipCard
               image={profile2}
-              name={"Jane Doe"}
-              description={" We are hiring you! "}
+              name={"Ying"}
+              description={"FIRE Enthusiast / ??? / Who am I"}
               title={"Skills"}
-              buttonRoute={"/aloy"}
-              disabled
+              buttonRoute={"/fun"}
             />
             <StyledFlipCard
               image={profile3}

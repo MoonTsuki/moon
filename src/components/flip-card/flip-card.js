@@ -34,7 +34,7 @@ export default class FlipCard extends Component {
               <Card.Body className="flip-card-body">
                 <Card.Title>{this.props.title}</Card.Title>
                 <Card.Text>{this.props.description}</Card.Text>
-                <Link to="/aloy">
+                <Link to={this.props.buttonRoute}>
                   <Button variant="danger" disabled={disabled}>
                     View my Portfolio
                   </Button>

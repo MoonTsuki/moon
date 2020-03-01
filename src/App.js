@@ -3,6 +3,7 @@ import './App.css';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import HomePage from './pages/homepage/homepage.js';
+import FunPage from './pages/funPage/funPage.js';
 import PortfolioPage from './pages/portfolioPage/portfolioPage.js';
 import React from 'react';
 
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/aloy">
           <PortfolioPage />
+        </Route>
+        <Route path="/fun">
+          <FunPage />
         </Route>
         <Route path="/">
           <HomePage />
